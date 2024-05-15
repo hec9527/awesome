@@ -6,7 +6,7 @@ const rootDir = path.join(__dirname, '..');
 
 const indexFile = path.join(rootDir, 'index.html');
 
-const sourceDir = ['css', 'javascript'];
+const sourceDir = ['css', 'javascript', 'demo'];
 
 /**
  * 函数用于递归遍历目录下的所有 HTML 文件

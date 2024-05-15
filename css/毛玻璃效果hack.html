@@ -24,6 +24,10 @@
         width: inherit;
       }
       #box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 800px;
         height: 450px;
         box-shadow: 5px 4px 12px rgba(0, 0, 0, 0.3);
@@ -32,7 +36,8 @@
         margin: auto;
         z-index: 1;
         overflow: hidden;
-        align-items: center;
+        color: #fff;
+        padding: 30px;
       }
       #box::before {
         content: '';
@@ -48,18 +53,12 @@
         /* 删除这个属性会导致边缘模糊弱化 */
         margin: -40px;
       }
-      #box h1 {
-        text-align: center;
-        padding: 30px;
-      }
+
       #box p {
         font-size: 20px;
         font-family: '微软雅黑';
         padding: 30px;
-        color: #fff;
         text-shadow: 0 0 4px #0005;
-        line-height: 2;
-        text-indent: 2em;
       }
     </style>
   </head>

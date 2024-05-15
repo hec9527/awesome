@@ -22,7 +22,7 @@ body {
   --maxHeight: 160px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-  gap: 12px;
+  gap: 24px 12px;
   grid-template-rows: repeat(var(--maxHeight));
 }
 
